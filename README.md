@@ -1,8 +1,8 @@
 ```
-Planum is a simple text editor running on 'localhost:5000'
+Fields is a simple text editor running on 'localhost:5000'
 	
 Usage:
-    planum <path>
+    fields <path>
 
 Editor shortcuts:
     F1              -> save file

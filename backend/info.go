@@ -1,10 +1,10 @@
 package backend
 
 func Info() string {
-	return `Planum is a simple text editor running on 'localhost:5000'
+	return `Fields is a simple text editor running on 'localhost:5000'
 	
 Usage:
-    planum <path>
+    fields <path>
 
 Editor shortcuts:
     F1              -> save file
