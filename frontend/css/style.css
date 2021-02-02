@@ -1,0 +1,43 @@
+body {
+    background-color: #3e3938;
+    font-family: Hack, monospace;
+    color: #cccccc;
+    font-size: 28px;
+    cursor: context-menu;
+}
+
+/**** LINE ****/
+
+#lineNumber {
+    float: left;
+    margin-right: 20px;
+    color: #5c5553; 
+}
+
+#lineContents {
+    float: none;
+}
+
+pre {
+    font-family: Hack, monospace;
+    margin: 0;
+}
+
+/**** CURSOR ****/
+
+span {
+    white-space: pre;
+}
+
+#cursor1 {
+    animation: saved 1s step-start 0s infinite;
+}
+@keyframes saved {
+    50% {background-color: #cccccc; color: #3e3938;}
+}
+#cursor2 {
+    animation: unsaved 1s step-start 0s infinite;
+}
+@keyframes unsaved {
+    50% {background-color: #64a54a; color: #3e3938;}
+}
