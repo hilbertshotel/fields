@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"io/ioutil"
 	"encoding/json"
-	"planum/backend"
+	"fields/backend"
 	"github.com/pkg/browser"
     "github.com/gobuffalo/packr/v2"
 )
