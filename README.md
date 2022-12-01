@@ -2,7 +2,7 @@
 Fields is a simple text editor running on 'localhost:5000'
 	
 Usage:
-    fields <path>
+    fields <file path>
 
 Editor shortcuts:
     F1              -> save file
@@ -17,3 +17,5 @@ Compatibility:
     - Mint/Firefox
     - Win10/Firefox
 ```
+
+![alt text](info/fields_demo.jpg?raw=true)
